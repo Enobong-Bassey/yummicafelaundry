@@ -1,0 +1,1162 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    padding-bottom: 280px;
+}
+
+header {
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 5px;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgb(126, 213, 228);
+}
+
+.navAreaMobile {
+    display: none;
+}
+
+/* header css */
+.bannerArea {
+    background: url(../img/) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+#right {
+    float: right;
+    margin-left: 650px;
+    text-align: right;
+}
+
+#left {
+    float: left;
+}
+
+.bannerArea {
+    padding-top: 1.3rem;
+    display: flex;
+}
+
+.bannerAreaMobile {
+    display: none;
+}
+
+.scroll-container {
+    display: none;
+}
+
+.navArea {
+    background-color: rgb(126, 213, 228);
+    padding-left: 140px;
+}
+
+ul.navSection {
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    padding-right: 50px;
+    background-color: rgb(126, 213, 228);
+}
+
+li#navlink {
+    float: left;
+}
+
+li#navlink a {
+    display: block;
+    color: navy;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navLaunch {
+    border: none;
+    float: right;
+    background-color: rgb(126, 213, 228);
+}
+
+li#navlink a:hover {
+    background-color: blue;
+    color: black;
+}
+
+li#navlink a.active {
+    background-color: navy;
+    color: white;
+}
+
+#coyName1 {
+    font-family: sans-serif;
+    font-size: 44px;
+    color: limegreen;
+    font-weight: 600;
+}
+
+#coyName2 {
+    font-family: sans-serif;
+    font-size: 44px;
+    color: orangered;
+    font-weight: 600;
+}
+/* header css ends */
+
+/* footer css */
+#footer-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: first baseline;
+}
+
+#coyNameFooter1 {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(27, 172, 27);
+    font-weight: 600;
+}
+
+#coyNameFooter2 {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: orangered;
+    font-weight: 600;
+}
+
+#footer-header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: navy;
+    margin-bottom: 0;
+    padding-right: 100px;
+    text-align: left;
+}
+
+#footer-address {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: navy;
+    margin-bottom: 7px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+address {
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: rgb(36, 36, 123);
+}
+
+ul {
+    text-decoration: none;
+}
+
+a#footer-navlink {
+    text-decoration: none;
+    /* font-family: 'Noto Sans', Arial, Helvetica, sans-serif, sans-serif; */
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: rgb(36, 36, 123);
+}
+
+a#footer-navlink:hover {
+    color: orangered;
+}
+
+#business-name {
+    justify-content: center;
+    text-align: center;
+    width: 30vw;
+}
+
+#copyright {
+    font-family:  'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(36, 36, 123);
+    font-size: 11px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.social-media-icons-blue {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.social-media-icons-blue a {
+    font-size: 1.2rem;
+    color:navy;
+}
+
+.social-media-icons-blue a:hover {
+    font-size: 1.2rem;
+    color: blue;
+}
+/* footer css ends */
+
+/* main css */
+.mainContent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+.contentLeft {
+    width: 30%;
+    height: 100vh;
+    float: left;
+    margin-left: 0;
+    margin-right: 0px;
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.contentRight {
+    width: 70%;
+    height: 100vh;
+    float: right;
+    margin-left: 20px;
+}
+
+#photo-1, #photo-2, #photo-3 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+#normal-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgb(59, 167, 186);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 32px;
+}
+
+#normal-header2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: rgb(59, 167, 186);
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+#normal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: rgb(17, 16, 16);
+    font-size: small;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    padding-right: 30px;
+}
+
+li {
+    /* margin-left: 20px; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: rgb(17, 16, 16);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#onlineStore {
+    border: 2px solid rgb(59, 167, 186);
+    color: rgb(59, 167, 186);
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#onlineStore:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: navy;
+}
+
+/* ice cream page css */
+div.ice-cream-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#ice-cream-section-launcher {
+    width: 100%;
+}
+
+div#ice-cream-flavours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    /* gap: 1.5em; */
+}
+
+div#ice-cream-banner-2 {
+    /* border: 3px solid rgb(126, 213, 228); */
+    padding: 10px;
+}
+
+#page-subject {
+    color: rgb(59, 167, 186);
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#flavour-list {
+    color: rgb(59, 167, 186);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#yummi-cafe-flavours {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+#flavour-heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: navy;
+    text-align: center;
+}
+
+#cafe-flavour {
+    border-radius: 15px;
+    /* background-color: rgb(126, 213, 228); */
+    /* padding: 10px; */
+    width: 19%;
+    margin-top: 10px;
+    height: 400px;
+    border: 2px solid rgb(126, 213, 228);
+}
+
+#inner-cafe-flavour {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#flavour-class {
+    background-color: rgb(126, 213, 228);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: navy;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin: 0;
+    width: 100%;
+}
+
+/* coffee-sandwiches section css */
+div#coffee-sandwiches {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+div#coffee-section,
+div#sandwich-section {
+    /* background-color: skyblue; */
+    border-radius: 15px;
+    width: 48%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+div#coffee-section {
+    background-color: rgb(182, 196, 202);
+    margin-right: 10px;
+}
+
+div#sandwich-section {
+    background-color: rgb(207, 188, 191);
+    margin-left: 10px;
+}
+
+div#coffee-section-header,
+div#sandwich-section-header {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+div#coffee-section-header {
+    color: rgb(56, 56, 139);
+}
+
+div#sandwich-section-header {
+    color: darkmagenta;
+}
+
+div#coffee-items,
+div#sandwich-items {
+    display: flex;
+    flex-direction: row;
+}
+
+div#coffee-image, div#coffee-text,
+div#sandwich-image, div#sandwich-text {
+    width: 50%;
+}
+
+div#coffee-text, div#sandwich-text {
+    padding-left: 20px;
+    padding-right: 0;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+div#coffee-text {
+    color: rgb(56, 56, 139);
+}
+
+div#sandwich-text {
+    color: darkmagenta;
+}
+
+#coffee-img, #sandwich-img {
+    width: 100%;
+}
+
+#coffee {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(56, 56, 139);
+    font-size: small;
+}
+
+#sandwich {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    /* text-align: justify; */
+    letter-spacing: 1px;
+    color: darkmagenta;
+    font-size: small;
+}
+
+div#flavour-item {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-weight: 900;
+}
+
+div#item-one {
+    border: 3px solid rgb(59, 167, 186);
+    padding: 10px;
+    width: 38%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+div#photo {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+
+    /* border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px; */
+}
+
+div#details {
+    padding: 5px 10px;
+
+    /* background-color: rgb(59, 167, 186); */
+
+    color: rgb(59, 167, 186);
+    font-size: 13px;
+    width: 70%;
+
+    /* border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px; */
+}
+
+#normal-12 {
+    color: navy;
+}
+
+#cream-type {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    color: rgb(59, 167, 186);
+    text-align: left;
+
+    /* padding-top: 10px;
+    padding-bottom: 2px; */
+
+    font-size: 17px;
+}
+
+#kawartha {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 46px;
+    color: #fff;
+}
+
+#ice-cream-img {
+    width: 90px;
+}
+
+#ice-cream-banner {
+    position: relative;
+}
+
+#ice-cream-area {
+    color: blue;
+}
+
+#banner-writeup {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 330px;
+    padding: 40px;
+}
+
+#pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#prices {
+    height: auto;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(126, 213, 228); */
+    border: 2px solid rgb(59, 167, 186);
+    border-radius: 35px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* justify-items: center; */
+}
+
+#scoop-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+#pricing-header {
+    color: blue;
+}
+
+#scoop-price {
+    height: 40px;
+    padding: 10px;
+    width: 12vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    border-radius: 25px;
+    background-color: lightgray;
+    color: navy;
+    text-align: center;
+    border: 1px solid navy;
+
+    /* padding-top: 10px;
+    padding-bottom: 2px; */
+
+    font-size: 13px;
+    /* ustify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+
+#price-promo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: red;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 35px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+#promo-price {
+    width: 35px;
+}
+
+#price-promo-note {
+    padding-left: 10px;
+}
+
+#note1, #note2 {
+    text-align: left;
+    padding-left: 0;
+}
+
+/* mobile responsive css */
+@media screen and (max-width: 600px) {
+    body {
+        padding-bottom: 280px;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    .footer-info,
+    .mainContent {
+        flex-direction: column;
+    }
+
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contentLeft, .contentRight {
+      width: 100%; /* The width is 100%, when the viewport is 600px or smaller */
+      height: auto;
+    }
+
+    .contentRight {
+        margin-left: 0px;
+    }
+
+    .contentLeft {
+        display: none;
+    }
+
+    .bannerArea {
+        display: none;
+    }
+
+    .bannerAreaMobile {
+        display: block;
+        text-align: center;
+    }
+
+    #coyNameMobile1 {
+        font-family: sans-serif;
+        font-size: 20px;
+        color: limegreen;
+        font-weight: 600;
+    }
+    
+    #coyNameMobile2 {
+        font-family: sans-serif;
+        font-size: 20px;
+        color: orangered;
+        font-weight: 600;
+    }
+
+    .navArea {
+        display: none;
+    }
+
+    .navAreaMobile {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(126, 213, 228);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .mobile-nav-launcher {
+        padding-right: 10px;
+        text-align: right;
+    }
+
+    .mobile-nav-link {
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 40px;
+        /* text-align: center; */
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    .mobile-nav-link:hover {
+        background-color: navy;
+        color: white;
+    }
+
+    .fa-solid.fa-bars {
+        background-color: rgb(126, 213, 228);
+        color: white;
+        border: none;
+    }
+
+    #photo-1, #photo-3 {
+        display: none;
+    }
+
+    #normal-header {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: rgb(59, 167, 186);
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    
+    #normal-header2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        color: rgb(59, 167, 186);
+        text-align: left;
+        padding-top: 10px;
+        padding-bottom: 2px;
+        font-size: 16px;
+    }
+
+    #website-pages,
+    #business-name,
+    #events-news {
+        display: none;
+    }
+
+    #contact-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    address {
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #onlineStore {
+        border: 2px solid rgb(59, 167, 186);
+        color: rgb(59, 167, 186);
+        background-color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 5px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .scroll-container {
+        display: flex;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .swiper {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+    }
+
+    .swiper .swiper-button-prev, 
+    .swiper .swiper-button-next {
+        color: #fff;
+    }
+
+    .swiper .swiper-pagination-bullet-active {
+        background: #fff;
+    }
+
+    #footer-address {
+        width: 100%;
+    }
+
+    div#ice-cream-flavours {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    div#item-one {
+        width: 100%;
+        border: 1.5px solid rgb(59, 167, 186);
+        margin-bottom: 10px;
+        padding: 4px;
+        height: auto;
+        border-radius: 13px;
+        justify-content: center;
+    }
+    
+    div#photo {
+        width: 25%;
+    }
+
+    div#details {
+        width: 70%;
+        padding: 2px 0px;
+    }
+
+    #ice-cream-img {
+        width: 60px;
+    }
+
+    #cream-type {
+        font-size: 12px;
+    }
+
+    #normal-header {
+        font-size: 15px;
+    }
+
+    #normal-header2 {
+        font-size: 13px;
+    }
+
+    #normal {
+        font-size: 10px;
+    }
+
+    li {
+        /* margin-left: 20px; */
+        /* font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: rgb(17, 16, 16); */
+        font-size: 10px;
+        /* text-decoration: none; */
+    }
+
+    #iceCreamLaunch {
+        border: none;
+        float: right;
+        background-color: rgb(126, 213, 228);
+    }
+
+    .ice-cream-section-launcher {
+        height: 40px;
+        padding: 5px 10px;
+        background-color: rgb(126, 213, 228);
+        color: navy;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    #ice-cream-area {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: blue;
+    }
+
+    #scoop-sizes-underline {
+        margin-top: 1px;
+        margin-bottom: 10435retpx;
+    }
+
+    #pricing-header {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: blue;
+    }
+
+    #ice-separator {
+        background-color: blue;
+        padding-top: 2px;
+        margin-top: 0;
+    }
+
+    #banner-writeup {
+        top: 155px;
+    }
+
+    #kawartha {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+    }
+
+    #pricing-container {
+        padding: 10px;
+    }
+
+    #prices {
+        height: auto;
+        width: 100vw;
+        /* background-color: rgb(126, 213, 228); */
+        border: 1px solid rgb(59, 167, 186);
+        border-radius: 15px;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+        /* justify-items: center; */
+    }
+
+    #scoop-details {
+        height: auto;
+    }
+
+    #scoop-price {
+        height: auto;
+        padding: 3px;
+        width: 32vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        border-radius: 12px;
+        background-color: rgb(126, 213, 228);
+        color: navy;
+        text-align: center;
+        border: 3px solid rgb(126, 213, 228);
+        margin-bottom: 5px;
+    
+        /* padding-top: 10px;
+        padding-bottom: 2px; */
+    
+        font-size: 10px;
+        /* ustify-content: center;
+        align-items: center;
+        text-align: center; */
+    }
+
+    #price-promo {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: red;
+        font-size: 10px;
+        justify-content: center;
+        display: flex;
+        border: 2px solid red;
+        padding: 3px;
+        border-radius: 20px;
+        width: auto;
+        margin: 10px;
+    }
+
+    #promo-price {
+        width: 30px;
+    }
+
+    #price-promo-note {
+        padding-left: 10px;
+    }
+
+    #note1, #note2 {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    #price-promo-img {
+        justify-content: center;
+    }
+
+    #yummi-cafe-flavours {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    div#ice-cream-banner-2 {
+        border: none;
+    }
+
+    #cafe-flavour {
+        width: 90%;
+        height: fit-content;
+    }
+
+    #page-subject {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #flavour-list {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    div#inner-cafe-flavour {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #flavour-class {
+        background-color: #fff;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        position: relative;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        height: 100%;
+        padding: 0;               
+    }
+
+    div#flavour-heading {
+        /* position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%) rotate(-90deg) !important; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        text-wrap: nowrap;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 0;
+        font-size: 14px;
+        margin: 0;
+        text-align: start;
+        height: fit-content;
+    }
+
+    #flavour-item {
+        margin: 0;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    span#fl-items {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        color: blue;
+        font-size: 12px;
+    }
+
+    #coffee-sandwiches {
+        flex-direction: column;
+    }
+
+    div#coffee-section,
+    div#sandwich-section {
+        width: 100%;
+    }
+
+    div#coffee-section {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    div#sandwich-section {
+        margin-left: 0;
+    }
+
+    div#coffee-section-header {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    div#sandwich-section-header {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    div#coffee-items,
+    div#sandwich-items {
+        flex-direction: column;
+    }
+
+    div#coffee-image, div#coffee-text,
+    div#sandwich-image, div#sandwich-text {
+        width: 100%;
+    }
+
+    div#coffee-text, div#sandwich-text {
+        margin-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
